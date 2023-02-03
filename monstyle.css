@@ -1,0 +1,116 @@
+.Head 
+{
+    background-image:url(img/ImgHeader.jpg);
+    height: 100%;
+}
+
+.IconHead 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Icon 
+{
+    height: 10%;
+    width: 10%;
+    border-radius: 100px;
+}
+
+#menuWrapper 
+{
+    position: relative;
+}
+
+#menu 
+{
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background-color: #f2f2f2;
+    padding: 10px;
+    box-shadow: 2px 2px 2px #ccc;
+}
+
+.align 
+{
+    text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease;
+    box-shadow: 2px 2px 2px #ccc;
+}
+
+.TextHeader
+{
+    text-align: center;
+    color: #D6F15F;
+    font-family: Courier New, monospace;
+}
+
+.TextHeader:hover 
+{
+    color: white;
+    text-align: center;
+    background-color: #330099;
+    cursor: help;
+    padding: 5px;
+}
+
+.TextHide
+{
+    text-align: center;
+    color: white;
+    font-family: Courier New, monospace;
+}
+
+
+.container 
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.column 
+{
+    width: 33%;
+    padding: 10px;
+}
+
+.column2
+{
+    width: 50%;
+    padding: 10px;
+}
+
+.ImageCore 
+{
+    height: 70%;
+    width: 70%;
+    border-radius: 100px;
+}
+
+#Zoom 
+{
+    transition: transform .2s;
+}
+  
+#Zoom:hover 
+{
+    transform: scale(1.5);
+}
+
+.TextCore
+{
+    text-align: center;
+    color: black;
+    font-family: Courier New, monospace;
+}
